@@ -19,6 +19,7 @@
     - [What function is used?](#what-function-is-used)
   - [Why should I use this module?](#why-should-i-use-this-module)
   - [Want to help?](#want-to-help)
+  - [LICENSE](#license)
 
 ## Summary
 This is a module that can be used to generate RSA keys.
@@ -154,3 +155,6 @@ Feel free to copy part of the code if you need to use it, but please don't claim
 
 ## Want to help?
 If you find something wrong in the code, a bug or think that something is missing please feel free to suggest changes.
+
+## LICENSE
+This "Software" is Licensed Under  **`MIT License (MIT)`** .
