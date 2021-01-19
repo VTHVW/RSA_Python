@@ -73,9 +73,9 @@ The data needs to be divided to chunks smaller than the n module for the encrypt
 While having 2 classes (one for encryption and one for decryption) seem reasonable, it would actually be redundant.
 The operation that's performed in order to either encrypt or decrypt a message is the same.
 
-For encryption: $m^e\mod n$ where m is the message, e the encryption exponent and n the key module part.
+For encryption: $$m^e\mod n$$ where m is the message, e the encryption exponent and n the key module part.
 
-For Decryption: $m^d\mod n$ where m is the message, d the decryption exponent and n the key module part.
+For Decryption: $$m^d\mod n$$ where m is the message, d the decryption exponent and n the key module part.
 
 As you can see the only thing that change is the exponent.
 So when these methods are used the operation performed will be encryption if the public key is passed as argument and decryption if the private key is passed as an argument.
