@@ -153,11 +153,7 @@ This was made only to better understand how RSA work.
 Feel free to copy part of the code if you need to use it, but please don't claim it has your own. It would make me sad ☹.
 
 ## Want to help?
-<<<<<<< HEAD
 If you find something wrong in the code, a bug or think that something is missing please feel free to suggest changes.
 
 ## LICENSE
 This "Software" is Licensed Under  **`MIT License (MIT)`** .
-=======
-If you find something wrong in the code, a bug or think that something is missing please feel free to suggest changes.
->>>>>>> parent of b81b964 (Added License mention to README)
