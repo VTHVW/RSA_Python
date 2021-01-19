@@ -19,7 +19,6 @@
     - [What function is used?](#what-function-is-used)
   - [Why should I use this module?](#why-should-i-use-this-module)
   - [Want to help?](#want-to-help)
-  - [LICENSE](#license)
 
 ## Summary
 This is a module that can be used to generate RSA keys.
@@ -73,9 +72,9 @@ The data needs to be divided to chunks smaller than the n module for the encrypt
 While having 2 classes (one for encryption and one for decryption) seem reasonable, it would actually be redundant.
 The operation that's performed in order to either encrypt or decrypt a message is the same.
 
-For encryption: $$m^e\mod n$$ where m is the message, e the encryption exponent and n the key module part.
+For encryption: $m^e\mod n$ where m is the message, e the encryption exponent and n the key module part.
 
-For Decryption: $$m^d\mod n$$ where m is the message, d the decryption exponent and n the key module part.
+For Decryption: $m^d\mod n$ where m is the message, d the decryption exponent and n the key module part.
 
 As you can see the only thing that change is the exponent.
 So when these methods are used the operation performed will be encryption if the public key is passed as argument and decryption if the private key is passed as an argument.
@@ -154,7 +153,11 @@ This was made only to better understand how RSA work.
 Feel free to copy part of the code if you need to use it, but please don't claim it has your own. It would make me sad ☹.
 
 ## Want to help?
+<<<<<<< HEAD
 If you find something wrong in the code, a bug or think that something is missing please feel free to suggest changes.
 
 ## LICENSE
 This "Software" is Licensed Under  **`MIT License (MIT)`** .
+=======
+If you find something wrong in the code, a bug or think that something is missing please feel free to suggest changes.
+>>>>>>> parent of b81b964 (Added License mention to README)
